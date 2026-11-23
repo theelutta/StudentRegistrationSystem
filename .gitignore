@@ -1,0 +1,15 @@
+# Build output
+out/
+out-test/
+out-gui-test/
+
+# External runtime dependency; download it with scripts/download-connector.ps1
+lib/*.jar
+
+# Local IDE and operating-system files
+.idea/
+*.iml
+.vscode/
+*.log
+Thumbs.db
+Desktop.ini
